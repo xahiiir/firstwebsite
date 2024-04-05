@@ -1,0 +1,205 @@
+html{
+    background: url(/assets/img/signal-2023-10-02-235100_005.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+
+    }
+    
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: ; */
+
+    width: 100%;
+    text-align: left;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #f7f7f7;
+    text-align: center;
+    padding: 1rem;
+}
+.table {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: left;
+}
+h2 {
+    color: white;
+    /* background-color: rgba(0, 0, 0,15) */
+
+}
+p {
+    /*  */
+    border-radius:25px;
+
+    line-height: 1.2;
+    color: white;
+}
+* {
+    box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+body {
+background: rgb(red, green, blue);
+}
+.container {
+display: grid;
+grid-template-columns: auto auto auto;
+justify-content: center;
+border-width: 10px;
+}
+.cover {
+    width: 900px;
+    height: 300px;
+    /* margin-top: 50px; */
+    display: flex;
+}
+.card {
+    padding: 120px 60px 120px 60px;
+background: url(/asset/img/316894.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+text-align: center;
+width: 450px;
+height: 450px;
+margin: 20px;
+border-radius: 15%;
+/* animation:bobby 10s infinite; */
+/* transition: 2s ease all; */
+/* background-color: black; */
+background: url(/assets/img/signal-2023-10-02-235100_005.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+border: 2px solid black;
+
+}
+.card a{
+    
+    border-radius:25px;
+color: rgb(62, 128, 0);
+text-decoration: none;
+}
+.card img {
+    
+    border-radius: 25px;
+
+    width: 300px;
+    height: 150px;
+    image-rendering: auto;
+}
+.card i {
+    
+    border-radius:25px;
+
+    color: white;
+}
+
+
+
+
+
+footer hr {
+    width: 11vw;
+    margin: auto;
+}
+
+a:hover{
+    color: aqua;
+}
+
+h1:hover{
+    color: aqua;
+}
+
+h2:hover{
+    color: greenyellow;
+}
+.card>i:hover{
+    color: aqua;
+}
+
+
+
+
+
+/*learning*/
+@keyframes  bounce {
+  0%, 20% ,  53%, 80% {
+    transform: translateY(0);
+  }
+  40%{
+    transform: translateY(-20px);
+  }
+  60%{
+    transform: translateY(-10px);
+  }
+  100%{
+    transform: translateY(0) ;
+  }
+}
+
+
+@keyframes bobby {
+    0%{
+        background: url(/asset/img/Cover-Cyber-Security-1.jpg);
+        background-size: cover;
+        /* rotate: 0deg; */
+        background-repeat: no-repeat;
+        /* background-position: -500px; */
+        /* transform: translateX(-500px); */
+    
+    }
+        40%{
+            /* transform: translateX(-250px); */
+        background: url(/asset/img/lock.jog.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* rotate: 360deg; */
+        /* transform: translateX(500px); */
+
+
+        }
+        80%{
+            /* transform: translateX(250px); */
+        background: url(/asset/img/lock2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* rotate: 360deg; */
+        /* transform: translateX(-500px); */
+
+
+        }
+        100%{
+        background: url(/asset/img/cyber.jpg.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* rotate: 0deg; */
+        /* transform: translateX(500px); */
+
+            /* transform: translateX(-500px); */
+        }
+}
